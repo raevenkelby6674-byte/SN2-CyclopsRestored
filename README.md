@@ -1,6 +1,11 @@
-# Cyclops Restored / 独眼巨人号
+# Cyclops Restored — Subnautica 2 独眼巨人号还原 Mod
 
-Unofficial Cyclops mobile-base submarine mod for Subnautica 2.
+**Cyclops Restored 是《Subnautica 2：异星水域》（深海迷航2）的非官方内容模组。** 这是一款水下生存冒险游戏；本模组将一代《Subnautica》中的独眼巨人号大型潜艇还原并适配到二代，让玩家能够制造、驾驶、在船内活动，并使用储物、升级和蝌蚪号停靠等功能。
+
+需要拥有并安装《Subnautica 2》游戏本体。当前测试版适用于 Windows Steam 单人模式、游戏版本 `0.1.2.3-131439`。[查看适用游戏的 Steam 页面](https://store.steampowered.com/app/1962700/Subnautica_2/)
+
+**Cyclops Restored is an unofficial content mod for Subnautica 2**, an underwater survival adventure game. It adapts the Cyclops submarine from the first Subnautica for the sequel, with construction, piloting, walkable interiors, storage, upgrades and Tadpole docking. It requires the Subnautica 2 base game. This beta targets Windows Steam single-player on game build `0.1.2.3-131439`.
+
 
 **[下载与完整发布说明 / Downloads and release notes](https://github.com/raevenkelby6674-byte/SN2-CyclopsRestored/releases/tag/v0.9.0-beta.1)**
 
