@@ -1,76 +1,79 @@
-# Cyclops Restored · 独眼巨人号
+<h1 align="center">Cyclops Restored</h1>
 
-把一代的独眼巨人号带到 **《Subnautica 2：异星水域》**，作为能驾驶、能停靠小艇、也能布置内部设施的移动基地。
+<p align="center"><strong>The Cyclops submarine for Subnautica 2</strong></p>
 
-[下载第三个公开测试版](https://github.com/raevenkelby6674-byte/SN2-CyclopsRestored/releases/tag/v0.9.0-beta.3) · [查看源码](https://github.com/raevenkelby6674-byte/SN2-CyclopsRestored/releases/download/v0.9.0-beta.3/CyclopsRestored-Source.zip) · [反馈问题](https://github.com/raevenkelby6674-byte/SN2-CyclopsRestored/issues)
+<p align="center">Bring the original Cyclops into Subnautica 2 as a mobile base you can pilot, build inside and dock your Tadpole in.</p>
 
-## 能做什么
+<p align="center"><strong>English</strong> | <a href="./README.zh-CN.md">中文</a></p>
 
-- **开船与探索**：档位切换、引擎效率升级、内外照明、外部摄像头、声呐、护盾和诱饵。
-- **布置船舱**：在船内建造原版设施，共用独眼电网；支持舱内发电机和蝌蚪号停靠、充电、维修。
-- **储物与升级**：保留原来的柜子布局。三级储物压缩模块的同类物品堆叠上限分别为 **32 / 64 / 128**，中键可选择取出数量。带独立数据的工具和电池单独存放。
-- **深潜**：初始耐压深度 **1000 米**，三级深度模块分别提升到 **3000 / 6000 / 10000 米**。
-- **命名与配色**：柜名显示在原铭牌上；船名用于信标。外观编辑带可旋转的 3D 预览。
-- **残骸回收**：生命值清零后留下残骸，物资和模块可以回收。柜子每个占用格的物资会保存为一个压缩球，保留数量与物品数据。
-- **多人游玩**：所有玩家都可以使用驾驶、储物、模块、建造等功能，驾驶位按正常占用规则使用。
+<p align="center">
+  <a href="https://github.com/raevenkelby6674-byte/SN2-CyclopsRestored/releases/tag/v0.9.0-beta.3">Download</a> ·
+  <a href="#download-and-installation">Installation</a> ·
+  <a href="#features">Features</a> ·
+  <a href="#whats-new">What's new</a> ·
+  <a href="https://github.com/raevenkelby6674-byte/SN2-CyclopsRestored/releases/download/v0.9.0-beta.3/CyclopsRestored-Source.zip">Source</a> ·
+  <a href="https://github.com/raevenkelby6674-byte/SN2-CyclopsRestored/issues">Feedback</a>
+</p>
 
-压缩球放入完好独眼的储物柜后尝试还原一次，容量按接收船的储物模块等级计算。空间不足时保留原球，腾出空间后重新放入即可。
+## Features
 
-## 下载与安装
+- **Piloting and exploration:** speed settings, engine efficiency upgrades, interior and exterior lights, external cameras, sonar, shields and decoys.
+- **Interior building:** place native game facilities inside the ship and connect them to its power network. Supports onboard generators and Tadpole docking, charging and repairs.
+- **Storage and upgrades:** keeps the original locker layout. The three storage compression tiers allow stacks of **32 / 64 / 128** matching items. Middle-click to choose how many items to take. Tools and batteries with individual data remain separate.
+- **Deep diving:** starts at a crush depth of **1,000 m**. The three depth upgrades raise it to **3,000 / 6,000 / 10,000 m**.
+- **Names and colors:** locker names appear on their original nameplates, while the ship name appears on its beacon. The color editor includes a rotatable 3D preview.
+- **Wreck recovery:** when hull health reaches zero, the ship leaves a wreck with recoverable supplies and modules. Each occupied locker slot is packed into one cargo sphere, preserving the item count and data.
+- **Co-op:** every player can pilot, use storage, install modules and build inside the ship. The helm still follows normal seat occupancy rules.
 
-**适用：Subnautica 2，Windows Steam，游戏版本 `0.1.2.3-131439`。** 配套加载器为 UE4SS `v3.0.1 Beta #0`（`1ba38db4`，包版本 `3.0.1-1176-g1ba38db4`）。这是二代 Mod，一代和 Below Zero 不能使用。
+A cargo sphere makes one unpack attempt when placed in an intact Cyclops locker. Capacity follows that ship's current storage upgrade. If there is not enough room, the sphere stays intact; free up space and reinsert it to try again.
 
-玩家只需下载 **`CyclopsRestored-Win64.zip`**。`CyclopsRestored-Source.zip` 是开发源码，不是安装包。文件名以后保持不变，实际版本记录在包内 `VERSION.txt`。
+## Download and installation
 
-1. 完全退出游戏。
-2. 安装配套 UE4SS，将加载器的 `dwmapi.dll` 和 `ue4ss` 文件夹放到 `Subnautica2/Binaries/Win64/`，与游戏的 `Subnautica2-Win64-Shipping.exe` 同级。已有上述版本可跳过。[UE4SS 下载](https://github.com/UE4SS-RE/RE-UE4SS/releases/tag/experimental-latest) · [安装说明](https://docs.ue4ss.com/dev/installation-guide.html)
-3. 解压 Win64 包，把里面的 **`Subnautica2` 文件夹合并到游戏根目录**。Steam 中可通过“管理 → 浏览本地文件”找到根目录。
-4. 启动游戏。联机时，主机和每位加入者都安装同一份完整包。
+**For Subnautica 2 on Windows Steam, game build `0.1.2.3-131439`.** The matching loader is UE4SS `v3.0.1 Beta #0` (`1ba38db4`, package `3.0.1-1176-g1ba38db4`). This mod is for the sequel, not the first Subnautica or Below Zero.
 
-安装后应有这两个目录：
+To play, download **`CyclopsRestored-Win64.zip`**. `CyclopsRestored-Source.zip` contains development source, not an installable mod. These filenames will stay the same across updates; the actual build is recorded in `VERSION.txt` inside the archive.
+
+1. Fully exit the game.
+2. Install the matching UE4SS build. Place its `dwmapi.dll` and `ue4ss` folder in `Subnautica2/Binaries/Win64/`, beside `Subnautica2-Win64-Shipping.exe`. Skip this step if that version is already installed. [UE4SS downloads](https://github.com/UE4SS-RE/RE-UE4SS/releases/tag/experimental-latest) · [Installation guide](https://docs.ue4ss.com/dev/installation-guide.html)
+3. Extract the Win64 archive and **merge its `Subnautica2` folder into the game root**. In Steam, choose **Manage → Browse local files** to find that folder.
+4. Start the game. For co-op, the host and every joining player need the same complete mod package.
+
+The installation should contain these two folders:
 
 ```text
-游戏根目录/
+Game root/
 └─ Subnautica2/
    ├─ Mods/CyclopsRestored/
    │  ├─ CyclopsRestored.uplugin
-   │  └─ Content/Paks/Windows/   (.pak、.utoc、.ucas)
+   │  └─ Content/Paks/Windows/   (.pak, .utoc, .ucas)
    └─ Binaries/Win64/ue4ss/Mods/CyclopsRestored/
       ├─ enabled.txt
       ├─ Scripts/
       └─ native/CyclopsFinitePower.dll
 ```
 
-**从旧版更新：** 退出游戏后，先把上面两个 `CyclopsRestored` 文件夹移到游戏目录外，再放入新包里的文件，避免旧脚本残留。保留存档、UE4SS 和其他 Mod。
+**Updating an older version:** exit the game, move the two `CyclopsRestored` folders shown above outside the game directory, then install the new files. This keeps old scripts from being mixed with the update. Keep your saves, UE4SS and other mods.
 
-## 在游戏里建造
+## Building the Cyclops in game
 
-使用建造器放置“海面载具建造平台”，在水深足够、周围开阔的位置，通过平台操作屏制造独眼。进入船舱后可使用原版建造器布置设施；升级模块在船内模块站安装。
+Use the Habitat Builder to place the Mobile Vehicle Bay. In sufficiently deep, open water, use the bay's control screen to build the Cyclops. Once aboard, use the native Habitat Builder to place interior facilities and the ship's upgrade station to install modules.
 
-界面会跟随游戏语言，提供中文、英文、日文、韩文等 11 种语言。
+The interface follows the game language, with 11 languages including Chinese, English, Japanese and Korean.
 
-## 这次更新
+## What's new
 
-第三个公开测试版集中修整了多人交互、停靠、储物回收和电力更新：
+The third public beta focuses on multiplayer interactions, docking, cargo recovery and power updates:
 
-- 补齐加入者的舱门模型、驾驶提示及多项船内交互，调整停靠后的舱门关闭处理。
-- 修正退出驾驶或外观编辑后输入没有交还、失效船体留下编辑状态的问题。
-- 改善多人同时操作储物、模块和配色时的数据同步，补齐柜子改名保存。
-- 修正压缩球恢复被中断后的处理，避免后续回收操作相互干扰。
-- 补齐设施耗电与发电模块的事件更新，减少多人交替操作时重复读取电量的开销。
+- Adds missing hatch models, helm prompts and several interior interactions for joining players, and adjusts hatch closure after docking.
+- Fixes input not being returned after leaving the helm or closing customization, and clears editing state left behind by an invalid ship.
+- Improves synchronization when players use storage, modules or customization together, and fixes locker names not being saved.
+- Fixes interrupted cargo recovery so that later recovery operations do not interfere with one another.
+- Fixes power updates for interior facilities and generator modules, and reduces repeated power reads when players take turns interacting.
 
-本版对应内部构建 `0.9.0-beta.23-mp-test`。代码与离线检查已完成；多人长时间游玩和实际帧率仍在收集反馈。
+This release uses internal build `0.9.0-beta.23-mp-test`. Code and offline checks are complete; feedback from longer co-op sessions and in-game performance testing is still being collected.
 
-## 开源与反馈
+## Source and feedback
 
-源码包包含本项目的 Lua、原生桥、编辑器工具、翻译和测试，按 MIT 许可开放。开发方法见包内 `BUILDING.md`，资源说明和许可证也放在包内。
+The source archive includes the project's Lua code, native bridge, editor tools, translations and tests under the MIT license. See `BUILDING.md` inside the archive for development instructions. Licenses and asset notices are included there as well.
 
-发现问题可以提 Issue，写上游戏和 Mod 版本、主机或加入者、触发步骤，附上截图或相关日志即可。
-
-## English
-
-Cyclops Restored brings the Cyclops submarine into **Subnautica 2**: piloting, walkable interiors, native interior building, Tadpole docking, upgrades, storage compression and wreck recovery. Co-op gives every player access to the ship's features.
-
-Download **CyclopsRestored-Win64.zip** to play. With the matching UE4SS build installed, fully exit the game and merge the archive's `Subnautica2` folder into the game root. For an update, replace both CyclopsRestored folders shown above. All co-op players need the same package. The source archive includes English build instructions.
-
-Public beta.3 uses internal build `0.9.0-beta.23-mp-test`, for Windows Steam game build `0.1.2.3-131439` and UE4SS `1ba38db4`. This update focuses on multiplayer interactions, inventory recovery and power updates. Longer co-op sessions and in-game performance are still being tested.
+To report a bug, open an Issue with your game and mod versions, whether you were hosting or joining, and the steps that triggered it. A screenshot or relevant log excerpt helps.
