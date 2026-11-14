@@ -34,7 +34,7 @@
 玩家只需下载 **`CyclopsRestored-Win64.zip`**。`CyclopsRestored-Source.zip` 是开发源码，不是安装包。文件名以后保持不变，实际版本记录在包内 `VERSION.txt`。
 
 1. 完全退出游戏。
-2. 安装配套 UE4SS，将加载器的 `dwmapi.dll` 和 `ue4ss` 文件夹放到 `Subnautica2/Binaries/Win64/`，与游戏的 `Subnautica2-Win64-Shipping.exe` 同级。已有上述版本可跳过。[UE4SS 下载](https://github.com/UE4SS-RE/RE-UE4SS/releases/tag/experimental-latest) · [安装说明](https://docs.ue4ss.com/dev/installation-guide.html)
+2. 安装配套 UE4SS，将加载器的 `dwmapi.dll` 和 `ue4ss` 文件夹放到 `Subnautica2/Binaries/Win64/`，与游戏的 `Subnautica2-Win64-Shipping.exe` 同级。已有上述版本可跳过。[UE4SS 下载](https://github.com/UE4SS-RE/RE-UE4SS/releases/download/experimental/UE4SS_v3.0.1-1176-g1ba38db4.zip) · [安装说明](https://docs.ue4ss.com/dev/installation-guide.html)
 3. 解压 Win64 包，把里面的 **`Subnautica2` 文件夹合并到游戏根目录**。Steam 中可通过“管理 → 浏览本地文件”找到根目录。
 4. 启动游戏。联机时，主机和每位加入者都安装同一份完整包。
 
@@ -77,4 +77,5 @@
 源码包包含本项目的 Lua、原生桥、编辑器工具、翻译和测试，按 MIT 许可开放。开发方法见包内 `BUILDING.md`，资源说明和许可证也放在包内。
 
 发现问题可以提 Issue，写上游戏和 Mod 版本、主机或加入者、触发步骤，附上截图或相关日志即可。
+
 

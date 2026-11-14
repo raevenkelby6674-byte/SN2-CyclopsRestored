@@ -34,7 +34,7 @@ A cargo sphere makes one unpack attempt when placed in an intact Cyclops locker.
 To play, download **`CyclopsRestored-Win64.zip`**. `CyclopsRestored-Source.zip` contains development source, not an installable mod. These filenames will stay the same across updates; the actual build is recorded in `VERSION.txt` inside the archive.
 
 1. Fully exit the game.
-2. Install the matching UE4SS build. Place its `dwmapi.dll` and `ue4ss` folder in `Subnautica2/Binaries/Win64/`, beside `Subnautica2-Win64-Shipping.exe`. Skip this step if that version is already installed. [UE4SS downloads](https://github.com/UE4SS-RE/RE-UE4SS/releases/tag/experimental-latest) · [Installation guide](https://docs.ue4ss.com/dev/installation-guide.html)
+2. Install the matching UE4SS build. Place its `dwmapi.dll` and `ue4ss` folder in `Subnautica2/Binaries/Win64/`, beside `Subnautica2-Win64-Shipping.exe`. Skip this step if that version is already installed. [UE4SS downloads](https://github.com/UE4SS-RE/RE-UE4SS/releases/download/experimental/UE4SS_v3.0.1-1176-g1ba38db4.zip) · [Installation guide](https://docs.ue4ss.com/dev/installation-guide.html)
 3. Extract the Win64 archive and **merge its `Subnautica2` folder into the game root**. In Steam, choose **Manage → Browse local files** to find that folder.
 4. Start the game. For co-op, the host and every joining player need the same complete mod package.
 
@@ -77,3 +77,4 @@ This release uses internal build `0.9.0-beta.23-mp-test`. Code and offline check
 The source archive includes the project's Lua code, native bridge, editor tools, translations and tests under the MIT license. See `BUILDING.md` inside the archive for development instructions. Licenses and asset notices are included there as well.
 
 To report a bug, open an Issue with your game and mod versions, whether you were hosting or joining, and the steps that triggered it. A screenshot or relevant log excerpt helps.
+
