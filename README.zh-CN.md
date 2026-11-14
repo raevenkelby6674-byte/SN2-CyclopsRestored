@@ -7,16 +7,17 @@
 <p align="center"><a href="./README.md">English</a> | <strong>中文</strong></p>
 
 <p align="center">
-  <a href="https://github.com/raevenkelby6674-byte/SN2-CyclopsRestored/releases/tag/v0.9.0-beta.3">下载</a> ·
+  <a href="https://github.com/raevenkelby6674-byte/SN2-CyclopsRestored/releases/tag/v0.9.0-beta.4">下载</a> ·
   <a href="#下载与安装">安装</a> ·
   <a href="#能做什么">功能</a> ·
   <a href="#这次更新">更新内容</a> ·
-  <a href="https://github.com/raevenkelby6674-byte/SN2-CyclopsRestored/releases/download/v0.9.0-beta.3/CyclopsRestored-Source.zip">源码</a> ·
+  <a href="https://github.com/raevenkelby6674-byte/SN2-CyclopsRestored/releases/download/v0.9.0-beta.4/CyclopsRestored-Source.zip">源码</a> ·
   <a href="https://github.com/raevenkelby6674-byte/SN2-CyclopsRestored/issues">反馈</a>
 </p>
 
 ## 能做什么
 
+- **还原装备**：凝滞枪使用一代模型、动画、蓄力效果和音效，接入二代物品栏、电池及制作流程。同款测试枪两次有效命中即可摧毁满血独眼。
 - **开船与探索**：档位切换、引擎效率升级、内外照明、外部摄像头、声呐、护盾和诱饵。
 - **布置船舱**：在船内建造原版设施，共用独眼电网；支持舱内发电机和蝌蚪号停靠、充电、维修。
 - **储物与升级**：保留原来的柜子布局。三级储物压缩模块的同类物品堆叠上限分别为 **32 / 64 / 128**，中键可选择取出数量。带独立数据的工具和电池单独存放。
@@ -62,15 +63,15 @@
 
 ## 这次更新
 
-第三个公开测试版集中修整了多人交互、停靠、储物回收和电力更新：
+第四个公开测试版加入凝滞枪及同款测试枪、包裹船体的半透明护盾，以及鱼类碰撞反馈。
 
-- 补齐加入者的舱门模型、驾驶提示及多项船内交互，调整停靠后的舱门关闭处理。
-- 修正退出驾驶或外观编辑后输入没有交还、失效船体留下编辑状态的问题。
-- 改善多人同时操作储物、模块和配色时的数据同步，补齐柜子改名保存。
-- 修正压缩球恢复被中断后的处理，避免后续回收操作相互干扰。
-- 补齐设施耗电与发电模块的事件更新，减少多人交替操作时重复读取电量的开销。
+- 加入原生装备、蓄力、弹体和限时凝滞场；重叠凝滞场共用冻结状态，最后一个场结束后恢复目标。
+- 还原枪械骨骼、手部动作和音效，测试枪使用相同表现。
+- 修正加入者舱门与船内交互、延迟附着处理及攀爬镜头清理，保留全员操作能力。
+- 多人操作按顺序处理，避免重复执行已完成的操作，并清理换人物或换存档后遗留的请求。
+- 公开完整项目代码、编辑器工具、翻译及可独立运行的测试。
 
-本版对应内部构建 `0.9.0-beta.23-mp-test`。代码与离线检查已完成；多人长时间游玩和实际帧率仍在收集反馈。
+对应内部构建 `0.9.0-beta.25-restoration-test`，联机协议 4。脚本测试、原生编译、资源及渲染检查已通过；这版的实机游玩、联机和帧率仍待确认。
 
 ## 开源与反馈
 

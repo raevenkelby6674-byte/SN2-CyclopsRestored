@@ -7,16 +7,17 @@
 <p align="center"><strong>English</strong> | <a href="./README.zh-CN.md">中文</a></p>
 
 <p align="center">
-  <a href="https://github.com/raevenkelby6674-byte/SN2-CyclopsRestored/releases/tag/v0.9.0-beta.3">Download</a> ·
+  <a href="https://github.com/raevenkelby6674-byte/SN2-CyclopsRestored/releases/tag/v0.9.0-beta.4">Download</a> ·
   <a href="#download-and-installation">Installation</a> ·
   <a href="#features">Features</a> ·
   <a href="#whats-new">What's new</a> ·
-  <a href="https://github.com/raevenkelby6674-byte/SN2-CyclopsRestored/releases/download/v0.9.0-beta.3/CyclopsRestored-Source.zip">Source</a> ·
+  <a href="https://github.com/raevenkelby6674-byte/SN2-CyclopsRestored/releases/download/v0.9.0-beta.4/CyclopsRestored-Source.zip">Source</a> ·
   <a href="https://github.com/raevenkelby6674-byte/SN2-CyclopsRestored/issues">Feedback</a>
 </p>
 
 ## Features
 
+- **Restored equipment:** the Stasis Rifle uses the original model, animations, charge effects and sounds, with native inventory, battery and crafting support. A matching test rifle destroys a full-health Cyclops in two effective hits.
 - **Piloting and exploration:** speed settings, engine efficiency upgrades, interior and exterior lights, external cameras, sonar, shields and decoys.
 - **Interior building:** place native game facilities inside the ship and connect them to its power network. Supports onboard generators and Tadpole docking, charging and repairs.
 - **Storage and upgrades:** keeps the original locker layout. The three storage compression tiers allow stacks of **32 / 64 / 128** matching items. Middle-click to choose how many items to take. Tools and batteries with individual data remain separate.
@@ -62,15 +63,15 @@ The interface follows the game language, with 11 languages including Chinese, En
 
 ## What's new
 
-The third public beta focuses on multiplayer interactions, docking, cargo recovery and power updates:
+The fourth public beta adds the Stasis Rifle, its test variant, a translucent shield that encloses the hull, and creature impact feedback.
 
-- Adds missing hatch models, helm prompts and several interior interactions for joining players, and adjusts hatch closure after docking.
-- Fixes input not being returned after leaving the helm or closing customization, and clears editing state left behind by an invalid ship.
-- Improves synchronization when players use storage, modules or customization together, and fixes locker names not being saved.
-- Fixes interrupted cargo recovery so that later recovery operations do not interfere with one another.
-- Fixes power updates for interior facilities and generator modules, and reduces repeated power reads when players take turns interacting.
+- Adds native equipment, charging, projectiles and timed stasis fields. Overlapping fields share freeze ownership and restore targets after the final field ends.
+- Restores the rifle rig, hand poses and sounds, with the same presentation on the test variant.
+- Repairs joining-player hatch and interior interactions, delayed attachment handling, and ladder camera cleanup while keeping all players' controls available.
+- Queues multiplayer actions without repeating completed operations, and discards requests left behind when a player changes body or world.
+- Publishes the complete project code, editor tools, translations and portable tests.
 
-This release uses internal build `0.9.0-beta.23-mp-test`. Code and offline checks are complete; feedback from longer co-op sessions and in-game performance testing is still being collected.
+This is internal build `0.9.0-beta.25-restoration-test`, network protocol 4. Runtime tests, native builds and asset/render checks have passed. Live gameplay, co-op and frame-rate verification are still pending for this build.
 
 ## Source and feedback
 
