@@ -7,11 +7,11 @@
 <p align="center"><a href="./README.md">English</a> | <strong>中文</strong></p>
 
 <p align="center">
-  <a href="https://github.com/raevenkelby6674-byte/SN2-CyclopsRestored/releases/tag/v0.9.0-beta.5">下载</a> ·
+  <a href="https://github.com/raevenkelby6674-byte/SN2-CyclopsRestored/releases/tag/v0.9.0-beta.5.1">下载</a> ·
   <a href="#下载与安装">安装</a> ·
   <a href="#能做什么">功能</a> ·
   <a href="#这次更新">更新内容</a> ·
-  <a href="https://github.com/raevenkelby6674-byte/SN2-CyclopsRestored/releases/download/v0.9.0-beta.5/CyclopsRestored-Source.zip">源码</a> ·
+  <a href="https://github.com/raevenkelby6674-byte/SN2-CyclopsRestored/releases/download/v0.9.0-beta.5.1/CyclopsRestored-Source.zip">源码</a> ·
   <a href="https://github.com/raevenkelby6674-byte/SN2-CyclopsRestored/issues">反馈</a>
 </p>
 
@@ -63,11 +63,11 @@
 
 ## 这次更新
 
-独眼的干舱现在单独渲染。透过舷窗仍能看到海水，底部停靠井保持进水。原版基地接入了同一套隔水处理。联机时每个人按自己的镜头独立显示，舱内画面的宽高各取当前视图的一半。
+修正了耐久上限受效果影响时，测试枪第二次命中已经打空生命值、却不进入弃船倒计时的问题。爆炸后仍可从残骸回收柜内物资和模块。
 
-凝滞枪和测试枪接回了游戏的装备、收起和卸下流程。凝滞枪现在能读取命中目标，展开力场。修正了新船关闭推力时垂直速度上限也变成零的问题。已经下水的船会停止查询水面。
+独眼炸毁时，驾驶位和停靠位会等当前动作结束后再释放乘员或蝌蚪号。游戏明确拒绝脱离时会重试，已经受理的请求只等待结果。回收柜子里的物资可以照常进行。
 
-内部版本为 `0.9.0-beta.27-restoration-test`，联机协议 4。船舱和持枪模型已在编辑器中检查，存档内的实际表现、双机联机与帧率仍待测试。储物柜铭牌和自定义外观界面偶尔会显示异常。
+内部版本为 `0.9.0-beta.28-restoration-test`，联机协议 4。本次已做命中、残骸和物资回收的离线检查，实机联机与帧率仍待验证。储物柜改名和自定义外观界面偶尔会显示异常。
 
 ## 开源与反馈
 
