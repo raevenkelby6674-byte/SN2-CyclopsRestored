@@ -7,11 +7,11 @@
 <p align="center"><strong>English</strong> | <a href="./README.zh-CN.md">中文</a></p>
 
 <p align="center">
-  <a href="https://github.com/raevenkelby6674-byte/SN2-CyclopsRestored/releases/tag/v0.9.0-beta.5.2">Download</a> ·
+  <a href="https://github.com/raevenkelby6674-byte/SN2-CyclopsRestored/releases/tag/v0.9.0-beta.5.3">Download</a> ·
   <a href="#download-and-installation">Installation</a> ·
   <a href="#features">Features</a> ·
   <a href="#whats-new">What's new</a> ·
-  <a href="https://github.com/raevenkelby6674-byte/SN2-CyclopsRestored/releases/download/v0.9.0-beta.5.2/CyclopsRestored-Source.zip">Source</a> ·
+  <a href="https://github.com/raevenkelby6674-byte/SN2-CyclopsRestored/releases/download/v0.9.0-beta.5.3/CyclopsRestored-Source.zip">Source</a> ·
   <a href="https://github.com/raevenkelby6674-byte/SN2-CyclopsRestored/issues">Feedback</a>
 </p>
 
@@ -63,9 +63,11 @@ The interface follows the game language, with 11 languages including Chinese, En
 
 ## What's new
 
-Shield ripples stay on the part of the hull that was hit as the Cyclops moves or turns. In co-op, an impact that reaches a crew member just before the shield activates can still be seen.
+Equipping the Stasis Rifle or the Cyclops Test Rifle now starts sending its state to nearby crew. A teammate who joins during a charge receives the current charge, aim and held model.
 
-The cabin water effect now lines up with the main view when dynamic resolution is enabled. This fixes the smaller, second image of the helm. The idle-cabin DirectX 12 crash is still under investigation. Locker nameplates and the appearance editor can occasionally display incorrectly.
+Holstering and drawing the same rifle quickly clears its previous input. An old shot can no longer spend the new charge or replay its sound and muzzle flash. If a mesh or local effect is still loading, the server keeps the charge and active field running.
+
+Locker nameplates and the appearance editor can occasionally display incorrectly. The DirectX 12 crash reported while standing in the cabin is still under investigation.
 
 ## Source and feedback
 

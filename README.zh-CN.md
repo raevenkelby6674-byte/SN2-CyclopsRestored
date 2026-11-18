@@ -7,11 +7,11 @@
 <p align="center"><a href="./README.md">English</a> | <strong>中文</strong></p>
 
 <p align="center">
-  <a href="https://github.com/raevenkelby6674-byte/SN2-CyclopsRestored/releases/tag/v0.9.0-beta.5.2">下载</a> ·
+  <a href="https://github.com/raevenkelby6674-byte/SN2-CyclopsRestored/releases/tag/v0.9.0-beta.5.3">下载</a> ·
   <a href="#下载与安装">安装</a> ·
   <a href="#能做什么">功能</a> ·
   <a href="#这次更新">更新内容</a> ·
-  <a href="https://github.com/raevenkelby6674-byte/SN2-CyclopsRestored/releases/download/v0.9.0-beta.5.2/CyclopsRestored-Source.zip">源码</a> ·
+  <a href="https://github.com/raevenkelby6674-byte/SN2-CyclopsRestored/releases/download/v0.9.0-beta.5.3/CyclopsRestored-Source.zip">源码</a> ·
   <a href="https://github.com/raevenkelby6674-byte/SN2-CyclopsRestored/issues">反馈</a>
 </p>
 
@@ -63,9 +63,11 @@
 
 ## 这次更新
 
-独眼航行或转向时，护盾波纹会跟着船体上的命中点移动。联机时，即使命中消息比护盾开启状态先到，队友也能看到这次波纹。
+拿起凝滞枪或独眼测试枪后，队友会收到当前持枪模型、蓄力和瞄准状态。中途加入也能跟上已经开始的蓄力。
 
-修正了使用动态分辨率时驾驶台在左上角重影的问题。停在舱内时偶发的 DirectX 12 崩溃仍在排查。储物柜改名和自定义外观界面偶尔会显示异常。
+快速收枪再拿出会清掉上一次的输入，避免旧射击再次扣电、播放枪声或产生枪口火光。模型或特效还在加载时，主机会继续处理蓄力和已经展开的力场。
+
+储物柜改名和自定义外观界面偶尔会显示异常。停在舱内时出现的 DirectX 12 崩溃仍在排查。
 
 ## 开源与反馈
 
