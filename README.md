@@ -7,11 +7,11 @@
 <p align="center"><strong>English</strong> | <a href="./README.zh-CN.md">中文</a></p>
 
 <p align="center">
-  <a href="https://github.com/raevenkelby6674-byte/SN2-CyclopsRestored/releases/tag/v0.9.0-beta.5.1">Download</a> ·
+  <a href="https://github.com/raevenkelby6674-byte/SN2-CyclopsRestored/releases/tag/v0.9.0-beta.5.2">Download</a> ·
   <a href="#download-and-installation">Installation</a> ·
   <a href="#features">Features</a> ·
   <a href="#whats-new">What's new</a> ·
-  <a href="https://github.com/raevenkelby6674-byte/SN2-CyclopsRestored/releases/download/v0.9.0-beta.5.1/CyclopsRestored-Source.zip">Source</a> ·
+  <a href="https://github.com/raevenkelby6674-byte/SN2-CyclopsRestored/releases/download/v0.9.0-beta.5.2/CyclopsRestored-Source.zip">Source</a> ·
   <a href="https://github.com/raevenkelby6674-byte/SN2-CyclopsRestored/issues">Feedback</a>
 </p>
 
@@ -63,11 +63,9 @@ The interface follows the game language, with 11 languages including Chinese, En
 
 ## What's new
 
-This patch fixes the last two hits on a Cyclops whose maximum health has been changed by a gameplay effect. The second hit can now start the abandon-ship countdown and leave a salvageable wreck.
+Shield ripples stay on the part of the hull that was hit as the Cyclops moves or turns. In co-op, an impact that reaches a crew member just before the shield activates can still be seen.
 
-The ship also checks what happened when the game tries to release its pilot or docked Tadpole. If the seat or dock is busy, the wreck waits. A refused release can be tried again, and the lockers remain available during recovery.
-
-This is build `0.9.0-beta.28-restoration-test`, protocol 4. The hit, wreck and cargo sequence was checked offline. Live co-op and frame rate still need testing. Locker nameplates and the appearance editor can still display incorrectly.
+The cabin water effect now lines up with the main view when dynamic resolution is enabled. This fixes the smaller, second image of the helm. The idle-cabin DirectX 12 crash is still under investigation. Locker nameplates and the appearance editor can occasionally display incorrectly.
 
 ## Source and feedback
 
