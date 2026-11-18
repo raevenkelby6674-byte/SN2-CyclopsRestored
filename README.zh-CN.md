@@ -7,11 +7,11 @@
 <p align="center"><a href="./README.md">English</a> | <strong>中文</strong></p>
 
 <p align="center">
-  <a href="https://github.com/raevenkelby6674-byte/SN2-CyclopsRestored/releases/tag/v0.9.0-beta.4">下载</a> ·
+  <a href="https://github.com/raevenkelby6674-byte/SN2-CyclopsRestored/releases/tag/v0.9.0-beta.5">下载</a> ·
   <a href="#下载与安装">安装</a> ·
   <a href="#能做什么">功能</a> ·
   <a href="#这次更新">更新内容</a> ·
-  <a href="https://github.com/raevenkelby6674-byte/SN2-CyclopsRestored/releases/download/v0.9.0-beta.4/CyclopsRestored-Source.zip">源码</a> ·
+  <a href="https://github.com/raevenkelby6674-byte/SN2-CyclopsRestored/releases/download/v0.9.0-beta.5/CyclopsRestored-Source.zip">源码</a> ·
   <a href="https://github.com/raevenkelby6674-byte/SN2-CyclopsRestored/issues">反馈</a>
 </p>
 
@@ -63,20 +63,14 @@
 
 ## 这次更新
 
-第四个公开测试版加入凝滞枪及同款测试枪、包裹船体的半透明护盾，以及鱼类碰撞反馈。
+独眼的干舱现在单独渲染。透过舷窗仍能看到海水，底部停靠井保持进水。原版基地接入了同一套隔水处理。联机时每个人按自己的镜头独立显示，舱内画面的宽高各取当前视图的一半。
 
-- 加入原生装备、蓄力、弹体和限时凝滞场；重叠凝滞场共用冻结状态，最后一个场结束后恢复目标。
-- 还原枪械骨骼、手部动作和音效，测试枪使用相同表现。
-- 修正加入者舱门与船内交互、延迟附着处理及攀爬镜头清理，保留全员操作能力。
-- 多人操作按顺序处理，避免重复执行已完成的操作，并清理换人物或换存档后遗留的请求。
-- 公开完整项目代码、编辑器工具、翻译及可独立运行的测试。
+凝滞枪和测试枪接回了游戏的装备、收起和卸下流程。凝滞枪现在能读取命中目标，展开力场。修正了新船关闭推力时垂直速度上限也变成零的问题。已经下水的船会停止查询水面。
 
-对应内部构建 `0.9.0-beta.25-restoration-test`，联机协议 4。脚本测试、原生编译、资源及渲染检查已通过；这版的实机游玩、联机和帧率仍待确认。
+内部版本为 `0.9.0-beta.27-restoration-test`，联机协议 4。船舱和持枪模型已在编辑器中检查，存档内的实际表现、双机联机与帧率仍待测试。储物柜铭牌和自定义外观界面偶尔会显示异常。
 
 ## 开源与反馈
 
 源码包包含本项目的 Lua、原生桥、编辑器工具、翻译和测试，按 MIT 许可开放。开发方法见包内 `BUILDING.md`，资源说明和许可证也放在包内。
 
 发现问题可以提 Issue，写上游戏和 Mod 版本、主机或加入者、触发步骤，附上截图或相关日志即可。
-
-

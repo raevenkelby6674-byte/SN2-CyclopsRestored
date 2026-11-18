@@ -7,11 +7,11 @@
 <p align="center"><strong>English</strong> | <a href="./README.zh-CN.md">中文</a></p>
 
 <p align="center">
-  <a href="https://github.com/raevenkelby6674-byte/SN2-CyclopsRestored/releases/tag/v0.9.0-beta.4">Download</a> ·
+  <a href="https://github.com/raevenkelby6674-byte/SN2-CyclopsRestored/releases/tag/v0.9.0-beta.5">Download</a> ·
   <a href="#download-and-installation">Installation</a> ·
   <a href="#features">Features</a> ·
   <a href="#whats-new">What's new</a> ·
-  <a href="https://github.com/raevenkelby6674-byte/SN2-CyclopsRestored/releases/download/v0.9.0-beta.4/CyclopsRestored-Source.zip">Source</a> ·
+  <a href="https://github.com/raevenkelby6674-byte/SN2-CyclopsRestored/releases/download/v0.9.0-beta.5/CyclopsRestored-Source.zip">Source</a> ·
   <a href="https://github.com/raevenkelby6674-byte/SN2-CyclopsRestored/issues">Feedback</a>
 </p>
 
@@ -63,19 +63,14 @@ The interface follows the game language, with 11 languages including Chinese, En
 
 ## What's new
 
-The fourth public beta adds the Stasis Rifle, its test variant, a translucent shield that encloses the hull, and creature impact feedback.
+The cabin has a separate water rendering pass. It follows the ship, keeps the sea visible through the windows and leaves the docking well flooded. It also recognizes dry rooms in native bases. Each player gets the effect on their own camera. The foreground uses half the width and height of that player's view.
 
-- Adds native equipment, charging, projectiles and timed stasis fields. Overlapping fields share freeze ownership and restore targets after the final field ends.
-- Restores the rifle rig, hand poses and sounds, with the same presentation on the test variant.
-- Repairs joining-player hatch and interior interactions, delayed attachment handling, and ladder camera cleanup while keeping all players' controls available.
-- Queues multiplayer actions without repeating completed operations, and discards requests left behind when a player changes body or world.
-- Publishes the complete project code, editor tools, translations and portable tests.
+Both rifles now call the game's equip, holster and unequip routines. The Stasis Rifle can use native hit and overlap results to start its field. A newly built Cyclops keeps its passive movement when thrust is off, and a ship that has finished launching stops looking up the water surface.
 
-This is internal build `0.9.0-beta.25-restoration-test`, network protocol 4. Runtime tests, native builds and asset/render checks have passed. Live gameplay, co-op and frame-rate verification are still pending for this build.
+This is build `0.9.0-beta.27-restoration-test`, protocol 4. The cabin and held model were checked in the editor. Gameplay, co-op and frame rate still need testing in a running save. Locker nameplates and the appearance editor can still display incorrectly.
 
 ## Source and feedback
 
 The source archive includes the project's Lua code, native bridge, editor tools, translations and tests under the MIT license. See `BUILDING.md` inside the archive for development instructions. Licenses and asset notices are included there as well.
 
 To report a bug, open an Issue with your game and mod versions, whether you were hosting or joining, and the steps that triggered it. A screenshot or relevant log excerpt helps.
-
