@@ -7,11 +7,11 @@
 <p align="center"><a href="./README.md">English</a> | <strong>中文</strong></p>
 
 <p align="center">
-  <a href="https://github.com/raevenkelby6674-byte/SN2-CyclopsRestored/releases/tag/v0.9.0-beta.6">下载</a> ·
+  <a href="https://github.com/raevenkelby6674-byte/SN2-CyclopsRestored/releases/tag/v0.9.0-beta.6.1">下载</a> ·
   <a href="#下载与安装">安装</a> ·
   <a href="#能做什么">功能</a> ·
   <a href="#这次更新">更新内容</a> ·
-  <a href="https://github.com/raevenkelby6674-byte/SN2-CyclopsRestored/releases/download/v0.9.0-beta.6/CyclopsRestored-Source.zip">源码</a> ·
+  <a href="https://github.com/raevenkelby6674-byte/SN2-CyclopsRestored/releases/download/v0.9.0-beta.6.1/CyclopsRestored-Source.zip">源码</a> ·
   <a href="https://github.com/raevenkelby6674-byte/SN2-CyclopsRestored/issues">反馈</a>
 </p>
 
@@ -63,11 +63,11 @@
 
 ## 这次更新
 
-小鱼撞到独眼船壳时会发出撞击声，开盾时还会在接触处泛起波纹。现在能识别二代里通常会穿过载具的微型鱼，护盾也能在持续开启时接着播放。
+凝滞枪接近满蓄力时，枪管会继续旋转，开火后逐渐减速，回到待机位置。两把枪现在都使用一代的六段枪身动画，换电池时也会播放原来的装填动作。动作跟随房主的游戏时间，中途加入的队友能接着看当前进度。
 
-凝滞枪能冻结随海域载入的生物。测试枪沿用相同的持枪动作、蓄力和特效，两次有效命中可以炸毁满血独眼。舱壁和手持工具改回游戏主视角绘制，手电照射时保留原有的光照和纹理。
+凝滞枪会冻结生物。测试枪每次有效命中扣除独眼最大生命值的一半，独眼开盾时也一样。
 
-储物柜改名和自定义外观偶尔会显示异常。之前反馈的舱内崩溃，以及完整的双人游玩，仍待实机确认。
+储物柜改名和自定义外观偶尔会显示异常。先前反馈的舱内崩溃和完整双人游玩仍待实机确认。
 
 ## 开源与反馈
 

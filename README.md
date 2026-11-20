@@ -7,11 +7,11 @@
 <p align="center"><strong>English</strong> | <a href="./README.zh-CN.md">中文</a></p>
 
 <p align="center">
-  <a href="https://github.com/raevenkelby6674-byte/SN2-CyclopsRestored/releases/tag/v0.9.0-beta.6">Download</a> ·
+  <a href="https://github.com/raevenkelby6674-byte/SN2-CyclopsRestored/releases/tag/v0.9.0-beta.6.1">Download</a> ·
   <a href="#download-and-installation">Installation</a> ·
   <a href="#features">Features</a> ·
   <a href="#whats-new">What's new</a> ·
-  <a href="https://github.com/raevenkelby6674-byte/SN2-CyclopsRestored/releases/download/v0.9.0-beta.6/CyclopsRestored-Source.zip">Source</a> ·
+  <a href="https://github.com/raevenkelby6674-byte/SN2-CyclopsRestored/releases/download/v0.9.0-beta.6.1/CyclopsRestored-Source.zip">Source</a> ·
   <a href="https://github.com/raevenkelby6674-byte/SN2-CyclopsRestored/issues">Feedback</a>
 </p>
 
@@ -63,11 +63,11 @@ The interface follows the game language, with 11 languages including Chinese, En
 
 ## What's new
 
-Fish now make contact with the outer hull, including the tiny fish that normally ignore vehicles. A hit triggers the ship’s impact sound, and an active shield shows a ripple at the contact point. Repeated shield updates keep the same activation.
+The Stasis Rifle’s barrel keeps turning as the charge reaches full strength. After a shot it spins down into the idle pose. Both rifles now use all six original mechanical clips, including the separate battery reload. The animation follows the host’s game clock, so a crewmate joining during a charge or cooldown can see the current pose.
 
-The Stasis Rifle can freeze creatures in streamed areas. The test rifle uses the same grip, charge and effects, and two hits can wreck a fully repaired Cyclops. Cabin walls and handheld tools now use the main game view, so the flashlight keeps the lighting and detail of the original scene.
+The Stasis Rifle still freezes creatures. The matching test rifle takes half of a Cyclops’s maximum health with each effective hit, even with its shield active.
 
-Locker nameplates and the appearance editor can still display incorrectly. The cabin crash and a full two-player session still need testing in the game.
+Locker nameplates and the appearance editor can occasionally display incorrectly. The reported cabin crash and a full two-player playthrough still need confirmation in the game.
 
 ## Source and feedback
 
