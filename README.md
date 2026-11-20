@@ -7,11 +7,11 @@
 <p align="center"><strong>English</strong> | <a href="./README.zh-CN.md">中文</a></p>
 
 <p align="center">
-  <a href="https://github.com/raevenkelby6674-byte/SN2-CyclopsRestored/releases/tag/v0.9.0-beta.5.3">Download</a> ·
+  <a href="https://github.com/raevenkelby6674-byte/SN2-CyclopsRestored/releases/tag/v0.9.0-beta.6">Download</a> ·
   <a href="#download-and-installation">Installation</a> ·
   <a href="#features">Features</a> ·
   <a href="#whats-new">What's new</a> ·
-  <a href="https://github.com/raevenkelby6674-byte/SN2-CyclopsRestored/releases/download/v0.9.0-beta.5.3/CyclopsRestored-Source.zip">Source</a> ·
+  <a href="https://github.com/raevenkelby6674-byte/SN2-CyclopsRestored/releases/download/v0.9.0-beta.6/CyclopsRestored-Source.zip">Source</a> ·
   <a href="https://github.com/raevenkelby6674-byte/SN2-CyclopsRestored/issues">Feedback</a>
 </p>
 
@@ -63,11 +63,11 @@ The interface follows the game language, with 11 languages including Chinese, En
 
 ## What's new
 
-Equipping the Stasis Rifle or the Cyclops Test Rifle now starts sending its state to nearby crew. A teammate who joins during a charge receives the current charge, aim and held model.
+Fish now make contact with the outer hull, including the tiny fish that normally ignore vehicles. A hit triggers the ship’s impact sound, and an active shield shows a ripple at the contact point. Repeated shield updates keep the same activation.
 
-Holstering and drawing the same rifle quickly clears its previous input. An old shot can no longer spend the new charge or replay its sound and muzzle flash. If a mesh or local effect is still loading, the server keeps the charge and active field running.
+The Stasis Rifle can freeze creatures in streamed areas. The test rifle uses the same grip, charge and effects, and two hits can wreck a fully repaired Cyclops. Cabin walls and handheld tools now use the main game view, so the flashlight keeps the lighting and detail of the original scene.
 
-Locker nameplates and the appearance editor can occasionally display incorrectly. The DirectX 12 crash reported while standing in the cabin is still under investigation.
+Locker nameplates and the appearance editor can still display incorrectly. The cabin crash and a full two-player session still need testing in the game.
 
 ## Source and feedback
 
